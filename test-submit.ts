@@ -11,7 +11,7 @@ const testSubmit = async () => {
     console.log("✓ MongoDB connected");
 
     const expiresAt = new Date(Date.now() + 10 * 60 * 1000);
-    
+
     console.log("Creating code request...");
     const result = await CodeRequest.create({
       code: "1234",
